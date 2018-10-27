@@ -2,3 +2,4 @@ Make sure to compile testcode.c without stack protection!
 E.g:
 
 	gcc -fno-stack-protector -z execstack testcode.c -o testcode
+Thank you to hackoftheday.securitytube.net/2013/04/demystifying-execve-shellcode-stack.html for clearing things up lol
