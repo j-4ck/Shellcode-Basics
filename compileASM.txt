@@ -1,0 +1,5 @@
+nasm -f elf32 execstack.nasm -o execstack.o
+
+ld execstack.o execstack
+
+./execstack  :)))))
